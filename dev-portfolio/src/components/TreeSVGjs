@@ -1,0 +1,14 @@
+import React from 'react';
+
+
+export default class TreeSVG extends React.Component {
+    render(){
+      return(
+        <svg>
+
+        </svg>
+      );
+    }
+  }
+  
+  
