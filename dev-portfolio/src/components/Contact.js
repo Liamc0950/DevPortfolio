@@ -6,8 +6,8 @@ export default class Contact extends React.Component {
       return(
         <article className="container box style3">
           <header>
-            <h2>Nisl sed ultricies</h2>
-            <p>Diam dignissim lectus eu ornare volutpat orci.</p>
+            <h2>Contact Me</h2>
+            <p>Send me an email and get in touch</p>
           </header>
           <form method="post" action="#">
             <div className="row gtr-50">

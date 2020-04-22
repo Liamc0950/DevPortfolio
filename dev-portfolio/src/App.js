@@ -17,7 +17,6 @@ class App extends React.Component {
           <Header></Header>
           <Banner></Banner>
           <Feature></Feature>
-          <Portfolio></Portfolio>
           <Contact></Contact>
           <Footer></Footer>
         </div>

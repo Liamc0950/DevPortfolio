@@ -6,13 +6,15 @@ export default class Banner extends React.Component {
       return(
         <section id="banner">
           <header>
-            <h2>This is Overflow</h2>
+            <h2>About</h2>
           </header>
-          <p>A brand new site template designed by <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a>.<br />
-          It’s responsive, built on HTML5/CSS3, and entirely free<br />
-          under the <a href="http://html5up.net/license">Creative Commons license</a>.</p>
+          <p>
+              As a soon-to graduate student I am looking for an opportunity to join a challenging and exciting project 
+              that will allow me to learn and develop my skills. My experience thus far has largely been on personal 
+              projects where I have worked on both front and back-end.
+          </p>
           <footer>
-            <a href="#first" className="button style2 scrolly">Act on this message</a>
+            <a href="#first" className="button style2 scrolly">Check out my projects</a>
           </footer>
         </section>
       );

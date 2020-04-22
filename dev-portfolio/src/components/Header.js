@@ -10,7 +10,7 @@ export default class Header extends React.Component {
             <p>Web Developer</p>
           </header>
           <footer>
-            <a href="#banner" className="button style2 scrolly-middle">Proceed as anticipated</a>
+            <a href="#banner" className="button style2 scrolly-middle">About Me</a>
           </footer>
         </section>
       );
