@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 @import url("fontawesome-all.min.css");
 
-/*
-	Overflow by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -33,18 +27,6 @@ body {
 	line-height: 1;
 }
 
-ol, ul {
-	list-style: none;
-}
-
-blockquote, q {
-	quotes: none;
-}
-
-	blockquote:before, blockquote:after, q:before, q:after {
-		content: '';
-		content: none;
-	}
 
 table {
 	border-collapse: collapse;
@@ -84,7 +66,6 @@ input, select, textarea {
 
 	body {
 		background-color: #183026;
-		background-image: url("/images/overlay.png"), url("/images/bg.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		background-position: top left, center 0;
@@ -1991,6 +1972,12 @@ input, select, textarea {
 		}
 
 /* Header */
+	
+	/* Tree */
+	.tree{
+		position: absolute;
+		left: 0; right: 0; bottom: 10%;
+	}
 
 	#header {
 		-moz-transition: opacity 2s ease-in-out;
@@ -2002,13 +1989,12 @@ input, select, textarea {
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		margin: 0;
-		padding: 14em 0 14em 0;
+		padding-top: 3em;
 		cursor: default;
 	}
 
 		#header header {
 			display: inline-block;
-			padding: 0 0 4.5em 0;
 		}
 
 			#header header h1 {
@@ -2092,7 +2078,7 @@ input, select, textarea {
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #35b88f url("images/banner.svg") bottom center no-repeat;
+		background: #152E33;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
@@ -2584,7 +2570,6 @@ input, select, textarea {
 
 				#header footer {
 					bottom: 4.5em;
-					padding: 0 2em 0 2em;
 				}
 
 					#header footer:after {

@@ -4,8 +4,8 @@ import './App.css';
 
 import Header from './components/Header'
 import Banner from './components/Banner'
-import Feature from './components/Feature';
-import Portfolio from './components/Portfolio';
+import LightLineProject from './components/LightLineProject';
+import PortfolioProject from './components/PortfolioProject';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -16,7 +16,8 @@ class App extends React.Component {
         <div>
           <Header></Header>
           <Banner></Banner>
-          <Feature></Feature>
+          <LightLineProject></LightLineProject>
+          <PortfolioProject></PortfolioProject>
           <Contact></Contact>
           <Footer></Footer>
         </div>
