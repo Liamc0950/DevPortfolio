@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 
 export default class Banner extends React.Component {
@@ -14,7 +15,9 @@ export default class Banner extends React.Component {
           </p>
           https://github.com/Liamc0950
           <footer>
-            <a href="#first" className="button style2 scrolly">Check out my projects</a>
+            <Link to="lightlineProject" activeClass="active" spy={true} smooth={true} offset={-70} duration= {500} className="button style2"> 
+              Check out my projects
+            </Link>
           </footer>
         </section>
       );

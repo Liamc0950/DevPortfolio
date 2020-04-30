@@ -7,16 +7,7 @@
 (function($) {
 
 	var	$window = $(window),
-		$body = $('body'),
-		settings = {
-
-			// Parallax background effect?
-				parallax: true,
-
-			// Parallax factor (lower = more intense, higher = less intense).
-				parallaxFactor: 10
-
-		};
+		$body = $('body');
 
 	// Breakpoints.
 		breakpoints({
@@ -30,23 +21,6 @@
 		if (browser.mobile)
 			$body.addClass('is-scroll');
 
-	// Play initial animations on page load.
-		$window.on('load', function() {
-			window.setTimeout(function() {
-				$body.removeClass('is-preload');
-			}, 100);
-		});
-
-	// Scrolly.
-		$('.scrolly-middle').scrolly({
-			speed: 1000,
-			anchor: 'middle'
-		});
-
-		$('.scrolly').scrolly({
-			speed: 1000,
-			offset: function() { return (breakpoints.active('<=mobile') ? 70 : 190); }
-		});
 
 	// Poptrox.
 		$('.gallery').poptrox({

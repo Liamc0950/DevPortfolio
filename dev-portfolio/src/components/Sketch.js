@@ -13,7 +13,6 @@ export default function sketch(p){
     var width = 1000;
     var height = 680;
 
-
     p.setup = () => {
       canvas = p.createCanvas(width, height);
       p.noStroke();

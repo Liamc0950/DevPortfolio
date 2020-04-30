@@ -4,8 +4,8 @@ import React from 'react';
 export default class PortfolioProject extends React.Component {
     render(){
         return(
-          <article id="first" className="container box style1 right">
-            <a href="#" className="image fit"><img src="src\images\lightlineIMG.png" alt="LightLine" /></a>
+          <article id="portfolioProject" className="container box style1 right">
+            <a href="#" className="image fit"><img src="images/lightlineIMG.png" alt="LightLine" /></a>
             <div className="inner">
               <header>
                 <h2>Portfolio Platform</h2><br />
