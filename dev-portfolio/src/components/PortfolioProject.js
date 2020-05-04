@@ -1,20 +1,22 @@
 import React from 'react';
+import Image from "./portfolio.gif";
 
 
 export default class PortfolioProject extends React.Component {
     render(){
         return(
-          <article id="portfolioProject" className="container box style1 right">
-            <a href="#" className="image fit"><img src="images/lightlineIMG.png" alt="LightLine" /></a>
-            <div className="inner">
+          <article id="lightlineProject">
+          <div class="card box">
+            <a target="_blank" rel="noopener noreferrer"href="https://liam-corley-design.herokuapp.com/"><img className="card-img-top" src={Image} alt="LightLine"/></a>
+            <div class="card-body">
               <header>
-                <h2>Portfolio Platform</h2><br />
+                <h2>Portfolio Platform</h2>
                 <h4>Entertainment Designer Portfolio Platform</h4>
               </header>
-              <p>Tortor faucibus ullamcorper nec tempus purus sed penatibus. Lacinia pellentesque eleifend vitae est elit tristique velit tempus etiam.</p>
+              <p className="p-card">Tortor faucibus ullamcorper nec tempus purus sed penatibus. Lacinia pellentesque eleifend vitae est elit tristique velit tempus etiam.</p>
             </div>
-          </article>
+          </div>
+        </article>
         );
       }
     }
-    

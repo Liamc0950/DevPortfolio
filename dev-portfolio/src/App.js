@@ -9,7 +9,11 @@ import PortfolioProject from './components/PortfolioProject';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+//FONT AWESOME
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 
+library.add(fab)
 class App extends React.Component {
   render(){
     return(
