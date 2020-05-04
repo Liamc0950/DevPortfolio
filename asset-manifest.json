@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d5a72514.chunk.css",
+    "main.js": "/static/js/main.6709e186.chunk.js",
+    "main.js.map": "/static/js/main.6709e186.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.abef88e4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.abef88e4.js.map",
+    "static/js/2.7a65833b.chunk.js": "/static/js/2.7a65833b.chunk.js",
+    "static/js/2.7a65833b.chunk.js.map": "/static/js/2.7a65833b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7755be0885bc627267b4912797f7c198.js": "/precache-manifest.7755be0885bc627267b4912797f7c198.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d5a72514.chunk.css.map": "/static/css/main.d5a72514.chunk.css.map",
+    "static/js/2.7a65833b.chunk.js.LICENSE.txt": "/static/js/2.7a65833b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/poptrox-nav.6c5b9fd3.svg",
+    "static/media/lightline.gif": "/static/media/lightline.e7096d0d.gif",
+    "static/media/portfolio.gif": "/static/media/portfolio.f1efb07a.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.abef88e4.js",
+    "static/js/2.7a65833b.chunk.js",
+    "static/css/main.d5a72514.chunk.css",
+    "static/js/main.6709e186.chunk.js"
+  ]
+}
