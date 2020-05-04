@@ -15,9 +15,8 @@ export default class Banner extends React.Component {
               that will allow me to learn and develop my skills. 
           </p>
           <ul className="icons">
-            <li><a href="https://github.com/Liamc0950"><FontAwesomeIcon icon={['fab', 'github']}/></a></li>
-            <li><a href="#"><FontAwesomeIcon icon={['fab', 'pinterest']}/></a></li>
-            <li><a href="#"><FontAwesomeIcon icon={['fab', 'linkedin']}/></a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Liamc0950"><FontAwesomeIcon icon={['fab', 'github']}/></a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/liam-corley-67621b9b"><FontAwesomeIcon icon={['fab', 'linkedin']}/></a></li>
           </ul>
           <footer>
             <Link to="lightlineProject" spy={true} smooth={true} offset={-70} duration= {500} className="button style2"> 

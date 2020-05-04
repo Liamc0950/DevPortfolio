@@ -12,7 +12,12 @@ export default class LightLineProject extends React.Component {
                   <h2>LightLine</h2>
                   <h4>Entertainment Lighting Paperwork Management</h4>
                 </header>
-                <p className="p-card">Tortor faucibus ullamcorper nec tempus purus sed penatibus. Lacinia pellentesque eleifend vitae est elit tristique velit tempus etiam.</p>
+                <ul className="p-card">
+                  <li>Paperwork management web app for entertainment lighting designers</li>
+                  <li>CRUD application built on Django with PostgreSQL database</li>
+                  <li>User Authentication and data sharing feature</li>
+                  <li>Deployed to Heroku</li><br/>
+                </ul>
               </div>
             </div>
           </article>

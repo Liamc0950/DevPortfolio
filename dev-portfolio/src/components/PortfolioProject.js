@@ -13,7 +13,11 @@ export default class PortfolioProject extends React.Component {
                 <h2>Portfolio Platform</h2>
                 <h4>Entertainment Designer Portfolio Platform</h4>
               </header>
-              <p className="p-card">Tortor faucibus ullamcorper nec tempus purus sed penatibus. Lacinia pellentesque eleifend vitae est elit tristique velit tempus etiam.</p>
+              <ul className="p-card">
+                  <li>A portfolio template with CMS targeted towards theatre and entertainment designers</li>
+                  <li>Admin page providing CMS features such as adding portfolio items, uploading images, editing text content, etc.</li>
+                  <li>Deployed to Heroku with AWS S3 buckets for media storage.</li><br/>
+              </ul>
             </div>
           </div>
         </article>

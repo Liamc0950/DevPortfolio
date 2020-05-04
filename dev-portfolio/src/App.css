@@ -66,8 +66,9 @@ input, select, textarea {
 }
 
 .p-card{
-	padding-left: 0em;
-	padding-right: 0em;
+	padding-left: 2em;
+	padding-right: 0.1em;
+	padding-top: 0em;
 }
 /* Basic */
 
@@ -1522,7 +1523,7 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 1.5em;
-			margin-top: 1.5em;
+			margin-top: 0.5em;
 		}
 
 			ul li:first-child {

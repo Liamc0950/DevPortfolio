@@ -22,7 +22,6 @@ class App extends React.Component {
           <Banner></Banner>
           <LightLineProject></LightLineProject>
           <PortfolioProject></PortfolioProject>
-          <Contact></Contact>
           <Footer></Footer>
         </div>
     );
